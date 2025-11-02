@@ -9,11 +9,14 @@ jobs:
     steps:
       - name: Afficher un message de bienvenue
         run: echo "Hello World!"
+
       - name: Afficher un message de fin
         run: echo "Done - Bye"
+
       - name: Afficher la date courante
         run: date
+
       - name: Messages multiples
-  run: |
-    echo "Premier message"
-    echo "Deuxième message"
+        run: |
+          echo "Premier message"
+          echo "Deuxième message"
